@@ -1,0 +1,84 @@
+@media only screen and (max-width: 800px) {
+    .inner-bg {
+        padding: 100px 0 100px 0;
+    }
+    .navbar-no-bg .navbar-collapse {
+        background: #4dc0b5;
+    }
+    .imageTop-container {
+        margin-top: 80px;
+    }
+    .inner-bg .text-title h3 {
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .text-description p {
+        font-size: 14px;
+    }
+    .pacman {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        z-index: -9999;
+        width: 0;
+        height: 0;
+        border-right: 150px solid transparent;
+        border-top: 150px solid #4db7ad;
+        border-left: 150px solid #4db7ad;
+        border-bottom: 150px solid #4db7ad;
+        border-top-left-radius: 150px;
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 150px;
+        border-bottom-right-radius: 150px;
+    }
+    .ghost-button.responsive {
+        width: 100%;
+        margin: 5px;
+    }
+    .profile-card .image-profile-widget {
+        width: 50%;
+        text-align: center;
+        margin: 20px;
+    }
+    .profile-card .btn {
+        font-size: 16px;
+    }
+    .footer {
+        border-radius: 0% 100% 0% 100% / 100% 10% 90% 0%;
+    }
+    .top-content {
+        border-radius: 0% 100% 0% 100% / 95% 0% 100% 5%;
+    }
+    .footer .social-button i {
+        font-size: 30px;
+        margin: 10px;
+    }
+    .footer .watermark p {
+        font-size: 12px;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+    .footer .footer-text-title {
+        font-size: 22px;
+    }
+    .post-content h2 {
+        font-size: 2.2rem;
+    }
+    .post-content h3 {
+        font-size: 1.5rem
+    }
+    .post-content h4 {
+        font-size: 1.2rem
+    }
+    .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
+        margin: 30px 0;
+        font-weight: 600;
+    }
+    .post-content p, .post-content ul, .post-content ol {
+        margin: 30px 0;
+    }
+    .post-content em {
+        font-style: italic;
+    }
+}
