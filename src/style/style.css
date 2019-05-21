@@ -247,6 +247,7 @@ h3.section-title::after {
     line-height: 1.2;
     letter-spacing: 0.2px;
     font-weight: 600;
+    cursor: pointer;
 }
 .post-link:hover {
     text-decoration: none;
@@ -349,7 +350,6 @@ h3.section-title::after {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    ;
 }
 .project-gallery .gallery-divider, .skill-divider {
     background-color: #cdcdcd;
@@ -517,6 +517,7 @@ h3.section-title::after {
     display: block;
     background-color: #cdcdcd;
     transition: all 2s ease-in-out;
+    cursor: pointer;
 }
 .LazyLoad {
     opacity: 0;

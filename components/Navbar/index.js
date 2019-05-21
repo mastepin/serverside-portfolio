@@ -82,13 +82,15 @@ export default class MyNavbar extends React.Component {
 					<Collapse isOpen={this.state.isOpen} navbar>
 						<Nav className="ml-auto" navbar>
 							<NavItem>
-								<NavLink>About</NavLink>
+								<Link prefetch href="/about">
+									<NavLink>About Me</NavLink>
+								</Link>
 							</NavItem>
 							<NavItem>
 								<NavLink href="https://github.com/mastepin" target="_blank">Github</NavLink>
 							</NavItem>
 							<NavItem>
-								<Link href="/blog">
+								<Link prefetch href="/blog">
 									<NavLink>Blog</NavLink>
 								</Link>
 							</NavItem>
