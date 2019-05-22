@@ -24,7 +24,7 @@ export default class About extends Component {
 									    data-aos-delay="50"
 									    data-aos-once="true"
 					        		>
-					        			<img src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4" className="image-profile-about" alt="profiles"/>
+					        			<img src="https://id.gravatar.com/userimage/115494265/c4a90bd28aadff51ea4bf88f339d3181.png?size=200" className="image-profile-about" alt="profiles"/>
 					        		</div>
 					        	</div>
 					        	<div className="row mt-5 items-center">

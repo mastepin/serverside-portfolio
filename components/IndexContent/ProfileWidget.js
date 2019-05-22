@@ -8,11 +8,11 @@ export default class ProfileWidget extends Component {
 					<div className="card-body">
 						<div className="row">
 							<div className="col-md-4 text-center">
-								<img src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4" className="image-profile-widget" alt="profiles"/>
+								<img src="https://id.gravatar.com/userimage/115494265/c4a90bd28aadff51ea4bf88f339d3181.png?size=200" className="image-profile-widget" alt="profiles"/>
 							</div>
 							<div className="col-md-8">
 								<h5 className="card-title">Kelvin Kurniawan Oktavianto</h5>
-								<p className="card-text">Developers on SimpleLight Projects.</p>
+								<p className="card-text">Application developers.</p>
 								<div className="row">
 									<a href="https://www.instagram.com/_kelvinko/" className="btn ghost-button ghost-teal rounded responsive m-2 col"><i className="fab fa-instagram" /> Instagram</a>
 									<a href="https://www.twitter.com/_kelvinko" className="btn ghost-button ghost-teal rounded responsive m-2 col"><i className="fab fa-twitter" /> Twitter</a>

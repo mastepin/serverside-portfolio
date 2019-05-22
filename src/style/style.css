@@ -2,13 +2,15 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 .top-content {
-    background-color: #4dc0b5;
+    background: rgb(77, 192, 181);
+    background: linear-gradient(90deg, rgba(77, 192, 181, 1) 0%, rgba(105, 226, 214, 1) 100%);
     position: relative;
     z-index: 0;
     border-radius: 0% 100% 0% 100% / 90% 0% 100% 10%;
     -moz-border-radius: 0% 100% 0% 100% / 90% 0% 100% 10%;
     -webkit-border-radius: 0% 100% 0% 100% / 90% 0% 100% 10%;
     border: 0px solid #000000;
+    padding-bottom: 30px;
 }
 .backstrech {
     position: absolute;
@@ -63,11 +65,11 @@
     color: #fff;
 }
 .btn.ghost-button.ghost-teal {
-    border-color: #4dc0b5;
-    color: #4dc0b5;
+    border-color: #8795a1;
+    color: #242627;
 }
 .btn.ghost-button.ghost-teal:hover {
-    background-color: #4dc0b5;
+    background-color: #8795a1;
     color: #fff;
 }
 .btn.btn-see-more {
@@ -89,23 +91,23 @@
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
-    transition: .5s ease-in;
-    -webkit-transition: .5s ease-in;
-    -moz-transition: .5s ease-in;
-    -o-transition: .5s ease-in;
-    -ms-transition: .5s ease-in;
+    transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+    -moz-transition: .2s ease-in;
+    -o-transition: .2s ease-in;
+    -ms-transition: .2s ease-in;
 }
 .ghost-button.rounded {
     border-radius: 20px;
 }
 .btn.ghost-button:hover {
     background: #fff;
-    color: #4dc0b5;
-    transition: 0.5s ease-in;
-    -webkit-transition: 0.5s ease-in;
-    -moz-transition: 0.5s ease-in;
-    -ms-transition: 0.5s ease-in;
-    -o-transition: 0.5s ease-in;
+    color: #4db7ad;
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    -ms-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
 }
 .imageTop-container {
     width: 100%;
@@ -128,7 +130,7 @@ h3.section-title {
 h3.section-title::after {
     height: auto;
     content: " ";
-    border-bottom: #4dc0b5 4px solid;
+    border-bottom: #4db7ad 4px solid;
     width: 200px;
     position: absolute;
     left: 0;
@@ -157,7 +159,7 @@ h3.section-title::after {
 .card .card-title {
     font-weight: 400;
     margin-bottom: 0;
-    line-height: 1;
+    line-height: 1.5;
 }
 .card .card-text {
     color: #8795a1;
@@ -175,7 +177,7 @@ h3.section-title::after {
 .about-title>h3::after {
     height: auto;
     content: " ";
-    border-bottom: #4dc0b5 4px solid;
+    border-bottom: #4db7ad 4px solid;
     width: 200px;
     position: absolute;
     left: 15px;
@@ -192,7 +194,7 @@ h3.section-title::after {
 .footer {
     width: 100%;
     border-radius: 0% 100% 0% 100% / 100% 18% 82% 0%;
-    background-color: #4dc0b5;
+    background-color: rgb(77, 192, 181);
     padding: 50px 0 0 0;
     text-align: center;
     color: #fff;
@@ -251,7 +253,7 @@ h3.section-title::after {
 }
 .post-link:hover {
     text-decoration: none;
-    color: #4dc0b5;
+    color: #4db7ad;
     transition: .2s ease-in;
 }
 .article-container {
@@ -284,11 +286,12 @@ h3.section-title::after {
     width: 100%;
     height: 400px;
     position: absolute;
-    background-color: #4dc0b5;
+    background: rgb(77, 192, 181);
+    background: linear-gradient(90deg, rgba(77, 192, 181, 1) 0%, rgba(105, 226, 214, 1) 100%);
 }
 .section-bg {
     width: 100%;
-    opacity: 0.1;
+    opacity: .279;
     object-fit: cover;
     object-position: center;
     height: 400px;
@@ -364,17 +367,20 @@ h3.section-title::after {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    border-radius: .5rem;
 }
 .skill-icon {
-    color: #4dc0b5 !important;
+    color: #607D8B !important;
 }
 .skillPanel .progress {
     background: #929292;
     height: 7px;
 }
 .skillPanel:hover {
-    background: #4dc0b5;
-    transition: all .5s ease-in;
+    background: #4db7ad;
+    box-shadow: 0 16px 30px #4db7ad80;
+    transition: all .2s ease-out;
 }
 .skillPanel:hover .skill-divider {
     background-color: #fff;
@@ -383,10 +389,10 @@ h3.section-title::after {
     color: #fff !important;
 }
 .skillPanel:hover .progress-bar {
-    background-color: #fff;
+    background-color: #fff!important;
 }
 .skillPanel .progress-bar {
-    background-color: #4dc0b5;
+    background-color: #607D8B !important;
 }
 .skillName, .SkillPercentage {
     font-weight: 700;
@@ -398,7 +404,7 @@ h3.section-title::after {
     margin: 20px 0 10px 0;
 }
 .skill-divider {
-    background-color: #4dc0b5;
+    background-color: #4db7ad;
 }
 .project-gallery .nav-tabs .nav-link {
     border: 1px solid transparent;
@@ -415,21 +421,24 @@ h3.section-title::after {
     cursor: pointer;
 }
 .aboutapp-panel {
+    border-radius: .5rem;
+    padding: 20px 0;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .aboutapp-icon {
-    color: #4dc0b5 !important;
+    color: #4db7ad !important;
 }
 .aboutapp .progress {
     background: #929292;
     height: 7px;
 }
 .aboutapp-panel:hover {
-    background: #4dc0b5;
-    transition: all .5s ease-in;
+    box-shadow: 0 16px 30px #4db7ad80;
+    background: #4db7ad;
+    transition: all .2s ease-out;
 }
 .aboutapp-panel:hover .skill-divider {
     background-color: #fff;
@@ -441,7 +450,7 @@ h3.section-title::after {
     background-color: #fff;
 }
 .aboutapp .progress-bar {
-    background-color: #4dc0b5;
+    background-color: #4db7ad;
 }
 .aboutappName {
     font-weight: 700;
@@ -450,7 +459,7 @@ h3.section-title::after {
     margin-bottom: 0;
 }
 .aboutapp-divider {
-    background-color: #4dc0b5;
+    background-color: #4db7ad;
 }
 /* Utilities */
 
@@ -526,4 +535,10 @@ h3.section-title::after {
 .LazyLoad.is-visible {
     opacity: 1;
     transition: all 2s ease-in-out;
+}
+.thumbnail-single {
+    width: 100%;
+    position: absolute;
+    top: -190px;
+    opacity: 0.2;
 }

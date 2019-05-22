@@ -29,12 +29,10 @@ export default class AboutMe extends Component {
 							data-aos-duration="1000"
 						>
 							<div className="ExperienceWidget">
-								<h3 className="Experience-title text-center">Experience</h3>
+								<h3 className="Experience-title text-center">Hi there!</h3>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-									Quisque dictum, velit id sodales pretium, risus enim commodo lacus, 
-									a vestibulum dui massa et orci. Vivamus mollis dignissim ante, 
-									quis scelerisque quam dictum quis. 
+									Welcome to my portfolio application, here you can find about me, my skill, my projects, my experience, and more.
+									Also you can read some of my article here.
 								</p>
 								<Link href="/about">
 									<a className="btn btn-see-more">	

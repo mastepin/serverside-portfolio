@@ -19,7 +19,8 @@ const Single = ({ post }) => (
 				<div className="content article-container" id="content" style={{overflow: 'hidden'}}>
 					<div 
 						style={{
-						backgroundColor: '#4dc0b5',
+					    background: 'rgb(77, 192, 181)',
+					    background: 'linear-gradient(90deg, rgba(77, 192, 181, 1) 0%, rgba(105, 226, 214, 1) 100%)',
 						paddingTop: '150px',
 						paddingBottom: '150px',
 						borderRadius : '0% 100% 0% 100% / 90% 0% 100% 10%',

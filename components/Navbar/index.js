@@ -75,10 +75,19 @@ export default class MyNavbar extends React.Component {
 		return (
 			<header>
 				<Navbar color={ this.state.scrolled ? "white" : "dark"} fixed="top" expand="md" className={ this.state.navbarClass }>
-					<Link href="/">
-						<a className="navbar-brand">kelvinportfolio</a>
-					</Link>
-					<NavbarToggler onClick={this.toggle} className="myNavbar"/>
+					<div style={{
+						padding: '10px 20px',
+					    display: 'flex',
+					    justifyContent: 'space-between'}}
+					    className="navbar-controls"
+					    >	
+						<Link href="/">
+							<a className="navbar-brand">kelvinportfolio</a>
+						</Link>
+						<button className="navbar-toggler first-button" type="button" onClick={this.toggle} aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+						    <div className={`animated-icon1 ${this.state.isOpen ? 'open':''}`} ><span></span><span></span><span></span></div>
+						</button>
+					</div>
 					<Collapse isOpen={this.state.isOpen} navbar>
 						<Nav className="ml-auto" navbar>
 							<NavItem>
