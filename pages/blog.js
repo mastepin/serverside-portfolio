@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import {Link} from '../routes'
+import Link from 'next/link'
 import Head from 'next/head'
 import { Fade } from 'reactstrap'
 import Navbar from '../components/Navbar'
@@ -49,14 +49,14 @@ export default class Blog extends Component {
 													data-aos="fade-up" 
 													data-aos-duration="1000"
 													>
-													<Link prefetch route={`/blog/${post.slug}`}>
+													<Link prefetch as={`/blog/${post.slug}`} href={`/single?slug=${post.slug}`}>
 														<div className="thumb-replacement">
 															<img className="card-img-top thumbnail" src={post.better_featured_image.source_url} alt={post.title.rendered} rel="prefetch" />
 														</div>
 													</Link>
 													<div className="card-body">
 														<h3 className="card-title">
-															<Link prefetch route={`/blog/${post.slug}`}>
+															<Link prefetch as={`/blog/${post.slug}`} href={`/single?slug=${post.slug}`}>
 																<div className="post-link">
 																	<div dangerouslySetInnerHTML = {this.createMarkup(post.title.rendered)} />
 																</div>
