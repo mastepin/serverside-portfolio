@@ -3,5 +3,9 @@
     "builds": [{
         "src": "package.json",
         "use": "@now/next"
+    }],
+    "routes": [{
+        "src": "blog/(?<slug>[^/]+)$",
+        "dest": "/single/$slug"
     }]
 }

@@ -74,7 +74,7 @@ export default class MyNavbar extends React.Component {
 	render() {
 		return (
 			<header>
-				<Navbar color={ this.state.scrolled ? "white" : "dark"} fixed="top" expand="md" className={ this.state.navbarClass }>
+				<Navbar color={ this.state.scrolled ? "white" : "dark"} fixed="top" expand="md" className={ this.state.navbarClass } style={{padding: '0'}}>
 					<div style={{
 						padding: '10px 20px',
 					    display: 'flex',
