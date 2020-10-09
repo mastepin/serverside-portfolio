@@ -1,5 +1,5 @@
 {
-  "name": "myPortofolio",
+  "name": "myportofolio",
   "version": "1.0.0",
   "description": "this is my portofolio application",
   "main": "index.js",
@@ -11,7 +11,7 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "express": "^4.17.0",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "next": "^9.3.3",
     "next-images": "^1.1.1",
     "next-routes": "^1.4.2",
