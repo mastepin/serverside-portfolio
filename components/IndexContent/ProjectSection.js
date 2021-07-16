@@ -63,44 +63,44 @@ export default class ProjectSection extends Component {
 						 	 data-aos-delay="500">
 							<NavItem>
 								<NavLink className={classnames({ active: this.state.activeTab === '1' })} onClick={() => { this.toggle('1'); }}>
-	              					My Projects
-	              				</NavLink>
-	              			</NavItem>
+									My Projects
+								</NavLink>
+							</NavItem>
 							<NavItem>
 								<NavLink className={classnames({ active: this.state.activeTab === '2' })} onClick={() => { this.toggle('2'); }}>
-		              				My Dummy Projects
-		              			</NavLink>
-	              			</NavItem>
+									My Dummy Projects
+								</NavLink>
+							</NavItem>
 							<NavItem>
 								<NavLink className={classnames({ active: this.state.activeTab === '3' })} onClick={() => { this.toggle('3'); }}>
-		              				My Activites
-		              			</NavLink>
-	              			</NavItem>
-              			</Nav>
-              			<div className="gallery-divider" 
+										My Activites
+									</NavLink>
+								</NavItem>
+							</Nav>
+							<div className="gallery-divider" 
 							 data-aos="fade-up" 
 							 data-aos-duration="1000"
 						 	 data-aos-delay="400"/>
-              			<TabContent activeTab={this.state.activeTab} 
-									 data-aos="fade-up" 
-									 data-aos-duration="1000"
-								 	 data-aos-delay="700">
-	              			<TabPane tabId="1" className={`fade ${this.state.activeTab === '1' ? 'show' : ''}`}>
-		              			<div className="row">
-		              				<ProjectGallery />
-								</div>
-							</TabPane>
-							<TabPane tabId="2" className={`fade ${this.state.activeTab === '2' ? 'show' : ''}`}>
-								<div className="row">
-									<DummyProjectGallery />
-								</div>
-							</TabPane>
-							<TabPane tabId="3" className={`fade ${this.state.activeTab === '3' ? 'show' : ''}`}>
-								<div className="row">
-									<ActivityGallery />
-								</div>
-							</TabPane>
-						</TabContent>
+								<TabContent activeTab={this.state.activeTab} 
+									data-aos="fade-up" 
+									data-aos-duration="1000"
+									data-aos-delay="700">
+									<TabPane tabId="1" className={`fade ${this.state.activeTab === '1' ? 'show' : ''}`}>
+										<div className="row">
+											<ProjectGallery />
+										</div>
+									</TabPane>
+									<TabPane tabId="2" className={`fade ${this.state.activeTab === '2' ? 'show' : ''}`}>
+										<div className="row">
+											<DummyProjectGallery />
+										</div>
+									</TabPane>
+								<TabPane tabId="3" className={`fade ${this.state.activeTab === '3' ? 'show' : ''}`}>
+									<div className="row">
+										<ActivityGallery />
+									</div>
+								</TabPane>
+							</TabContent>
 					</div>
 				</div>
 			</div>
